@@ -25,17 +25,13 @@
 
 ## Technical Details
 
-collect() function
-Returns the current block’s timestamp, encoded as bytes.
-
-shouldRespond() function
-Pure function that takes two encoded timestamps as input.
-
-Decodes them and computes their absolute difference.
-
-Compares the difference to the threshold (2 seconds).
-
-Returns (true, message) if difference ≥ threshold, else (false, message).
+- collect() function
+- Returns the current block’s timestamp, encoded as bytes.
+- shouldRespond() function
+- Pure function that takes two encoded timestamps as input.
+- Decodes them and computes their absolute difference.
+- Compares the difference to the threshold (2 seconds).
+- Returns (true, message) if difference ≥ threshold, else (false, message).
 
 ## Event Handling
 
